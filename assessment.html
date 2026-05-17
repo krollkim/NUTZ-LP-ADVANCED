@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUTZ Calisthenics | אבחון ראשוני עם ליאב</title>
+<meta name="description" content="מפגש אישי עם ליאב — בדיקת יכולות, ייעוץ ראשוני והכוונה. בדוק אם קליסטניקס מתאים לך ולאן אתה יכול להגיע.">
+<meta name="keywords" content="קליסטניקס, אבחון ראשוני, מפגש ראשוני, ליאב, NUTZ, calisthenics">
+<meta name="author" content="NUTZ Calisthenics">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://nutzcalisthenics.com/assessment">
+<meta property="og:title" content="NUTZ Calisthenics | אבחון ראשוני עם ליאב">
+<meta property="og:description" content="שעה עם ליאב — בדיקת יכולות, ייעוץ אישי, ובחינת התאמה לתהליך.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="he_IL">
+<meta property="og:site_name" content="NUTZ Calisthenics">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Service","name":"אבחון ראשוני — NUTZ Calisthenics","description":"מפגש אישי עם ליאב לבדיקת יכולות, ייעוץ ראשוני והכוונה בעולם הקליסטניקס","provider":{"@type":"Person","name":"ליאב","url":"https://nutzcalisthenics.com"}}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Heebo:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+/* Assessment-specific overrides */
+.price-placeholder{text-align:center;padding:16px 24px;background:rgba(196,148,61,.05);border:1px dashed rgba(196,148,61,.2);border-radius:14px;color:var(--text-muted);font-size:.88rem;margin-bottom:28px}
+.for-who-list{max-width:700px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.for-who-item{display:flex;align-items:flex-start;gap:16px;background:linear-gradient(168deg,var(--bg-card) 0%,rgba(26,18,12,.5) 100%);border:1px solid rgba(196,148,61,.07);border-radius:16px;padding:22px 24px;transition:border-color .3s}
+.for-who-item:hover{border-color:rgba(196,148,61,.2)}
+.for-who-icon{flex-shrink:0;width:44px;height:44px;background:linear-gradient(135deg,rgba(196,148,61,.1),rgba(92,58,30,.15));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;border:1px solid rgba(196,148,61,.06)}
+.for-who-text h4{font-weight:700;font-size:1rem;color:var(--acorn-cream);margin-bottom:4px}
+.for-who-text p{color:var(--text-secondary);font-size:.88rem;line-height:1.7}
+.session-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(196,148,61,.06);border:1px solid rgba(196,148,61,.15);border-radius:12px;padding:10px 20px;font-size:.85rem;color:var(--text-secondary);margin-bottom:40px}
+.session-badge strong{color:var(--acorn-gold)}
+</style>
+</head>
+<body>
+
+<div class="ambient-glow glow-1"></div>
+<div class="ambient-glow glow-2"></div>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="top">
+  <img src="public/images/nutz-logo.png" alt="NUTZ Calisthenics Logo" class="hero-logo" width="130" height="130">
+
+  <div class="hero-badge">
+    <span class="dot"></span>
+    אבחון ראשוני — מקומות מוגבלים
+  </div>
+
+  <h1>NUTZ<span class="sub">CALISTHENICS</span></h1>
+
+  <p class="hero-subtitle">שעה עם ליאב שתשנה את הדרך שאתה מסתכל על הגוף שלך.<br>בדיקת יכולות, ייעוץ אישי ובחינת התאמה לתהליך.</p>
+
+  <div class="hero-cta-group">
+    <a href="#contact" class="btn-primary">קביעת אבחון</a>
+    <a href="#process" class="btn-ghost">מה כולל האבחון?</a>
+  </div>
+
+  <div class="scroll-indicator"><div class="line"></div></div>
+</section>
+
+<!-- ========== WHAT'S INCLUDED ========== -->
+<div class="section-divider"></div>
+<section class="section" id="process">
+  <div class="section-label">THE SESSION</div>
+  <h2 class="section-title">מה קורה במפגש?</h2>
+  <p class="section-desc">מפגש אחד, שעה אחת — ותצא ממנו עם תמונה ברורה לגמרי.</p>
+
+  <div class="process-grid">
+    <div class="process-card" data-anim="card">
+      <div class="process-num">01</div>
+      <div class="process-icon">🎯</div>
+      <h3>בדיקת יכולות</h3>
+      <p>מיפוי מלא של הרמה הנוכחית שלך — מה הגוף שלך יכול, מה הוא מחסיר, ומה הפוטנציאל האמיתי שלך.</p>
+    </div>
+    <div class="process-card" data-anim="card">
+      <div class="process-num">02</div>
+      <div class="process-icon">💡</div>
+      <h3>ייעוץ והכוונה</h3>
+      <p>ליאב ייתן לך תמונה ברורה — מה לעבוד עליו ראשון, איך להתחיל נכון, ומה חשוב להימנע ממנו.</p>
+    </div>
+    <div class="process-card" data-anim="card">
+      <div class="process-num">03</div>
+      <div class="process-icon">✅</div>
+      <h3>בחינת התאמה</h3>
+      <p>ליאב יבדוק אם אתה מוכן לתהליך ליווי רציני. לא כולם מתקבלים לתהליך — וזה חלק מהאיכות.</p>
+    </div>
+  </div>
+
+  <div style="text-align:center;margin-top:48px">
+    <div class="session-badge">
+      <span>📍</span>
+      <span>המפגש <strong>פרונטלי</strong> אצל ליאב &nbsp;·&nbsp; משך: <strong>כשעה</strong> &nbsp;·&nbsp; מחיר: <strong>יעודכן בקרוב</strong></span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOR WHO ========== -->
+<div class="section-divider"></div>
+<section class="section" id="forwho">
+  <div class="section-label">IS THIS FOR YOU</div>
+  <h2 class="section-title">למי מתאים האבחון?</h2>
+  <p class="section-desc">אם אחד מהמשפטים האלה מדבר אליך — כנראה שכן.</p>
+
+  <div class="for-who-list">
+    <div class="for-who-item" data-anim="card">
+      <div class="for-who-icon">🔰</div>
+      <div class="for-who-text">
+        <h4>מעולם לא התאמנת קליסטניקס</h4>
+        <p>אתה רוצה להיכנס לעולם הזה אבל לא יודע מאיפה להתחיל. האבחון יתן לך בסיס ברור.</p>
+      </div>
+    </div>
+    <div class="for-who-item" data-anim="card">
+      <div class="for-who-icon">🔄</div>
+      <div class="for-who-text">
+        <h4>אתה מתאמן אבל לא מתקדם</h4>
+        <p>משקיע שעות אבל לא רואה תוצאות? אבחון יחשוף בדיוק מה חוסם אותך.</p>
+      </div>
+    </div>
+    <div class="for-who-item" data-anim="card">
+      <div class="for-who-icon">❓</div>
+      <div class="for-who-text">
+        <h4>אתה לא בטוח אם קליסטניקס בשבילך</h4>
+        <p>תוציא את הספק מהמשוואה. בסוף המפגש תדע בדיוק אם זה הכיוון הנכון.</p>
+      </div>
+    </div>
+    <div class="for-who-item" data-anim="card">
+      <div class="for-who-icon">🎯</div>
+      <div class="for-who-text">
+        <h4>יש לך מטרה ספציפית</h4>
+        <p>מסל אפ, הנדסטנד, פלאנש — ליאב יבנה לך מפת דרכים ברורה להגיע לשם.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<div class="section-divider"></div>
+<section class="about-section" id="about">
+  <div class="section-label">YOUR COACH</div>
+  <h2 class="section-title">מי עושה את האבחון?</h2>
+  <div class="about-inner" data-anim="about">
+    <div class="about-avatar">
+      <img src="public/images/liav-planch.png" alt="ליאב — מאמן NUTZ Calisthenics" loading="lazy">
+    </div>
+    <div class="about-text">
+      <h3>ליאב | NUTZ Calisthenics</h3>
+      <p>מאמן קליסטניקס עם 14+ שנות ניסיון, רקע בספורטתרפיה והתמחות בתנועה ושיקום. ליאב לא עושה אבחונים סדרתיים — כל מפגש מקבל תשומת לב מלאה ואמיתית. אם יש התאמה, תדע את זה בסוף השעה.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<div class="section-divider"></div>
+<section class="faq-section" id="faq">
+  <img src="public/images/nutz-avatar-sticker.png" class="faq-mascot" alt="NUTZ mascot">
+  <div class="section-label">FAQ</div>
+  <h2 class="section-title">שאלות על האבחון</h2>
+  <p class="section-desc">כל מה שרצית לדעת לפני שאתה קובע</p>
+
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <h4>האם האבחון מחייב אותי להצטרף לתהליך?</h4>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">לא. האבחון הוא מפגש עצמאי לגמרי. בסופו תדע בדיוק איפה אתה ומה האפשרויות שלך — ללא שום התחייבות.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <h4>כמה זמן נמשך המפגש?</h4>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">כשעה. המפגש הוא פרונטלי אצל ליאב — תאריך ומיקום מדויק בתיאום אישי.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <h4>מה צריך להביא?</h4>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">רק בגדי ספורט ומוכנות לעבוד. כל השאר ליאב מסדר.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <h4>מה קורה אחרי האבחון?</h4>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">ליאב ישתף אותך בממצאים ויציג בפניך את האפשרויות הרלוונטיות. אם יש התאמה לתהליך ליווי — תקבל הצעה מסודרת.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <h4>מה המחיר?</h4>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">המחיר יעודכן בקרוב. צור קשר ונסגור את הפרטים.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FORM ========== -->
+<div class="section-divider"></div>
+<section class="form-section" id="contact">
+  <div class="section-label">LET'S GO</div>
+  <h2 class="section-title">קביעת אבחון ראשוני</h2>
+  <p class="section-desc">השאר פרטים וליאב יחזור אליך לתיאום המפגש.</p>
+
+  <div class="form-card" data-anim="form">
+    <form id="assessmentForm">
+      <div class="form-group">
+        <label for="aname">שם מלא</label>
+        <input type="text" id="aname" name="name" required placeholder="השם שלך">
+      </div>
+      <div class="form-group">
+        <label for="aphone">טלפון</label>
+        <input type="tel" id="aphone" name="phone" required placeholder="05X-XXXXXXX" dir="ltr" style="text-align:right">
+      </div>
+      <div class="form-group">
+        <label for="aexp">רמת ניסיון</label>
+        <select id="aexp" name="experience">
+          <option value="">בחר...</option>
+          <option value="beginner">מתחיל — אין ניסיון בקליסטניקס</option>
+          <option value="some">יש לי קצת ניסיון</option>
+          <option value="intermediate">מתאמן אבל לא מתקדם</option>
+          <option value="other">אחר</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="amsg">מה המטרה שלך? (אופציונלי)</label>
+        <textarea id="amsg" name="message" rows="3" placeholder="מסל אפ, הנדסטנד, ירידה במשקל..."></textarea>
+      </div>
+      <button type="submit" class="form-submit" id="assessmentSubmitBtn">קביעת אבחון</button>
+    </form>
+
+    <div class="form-success" id="assessmentSuccess">
+      <div class="big-check">✅</div>
+      <h4>הפרטים נשלחו!</h4>
+      <p>ליאב יחזור אליך לתיאום המפגש תוך 24 שעות.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="footer-logo">NUTZ</div>
+  <p>© 2025 NUTZ Calisthenics · <a href="index.html" style="color:var(--acorn-gold);text-decoration:none">לתהליכי הליווי ←</a></p>
+</footer>
+
+<script src="main-assessment.js"></script>
+</body>
+</html>
