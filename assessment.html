@@ -3,21 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NUTZ Calisthenics | אבחון ראשוני עם ליאב</title>
-<meta name="description" content="מפגש אישי עם ליאב — בדיקת יכולות, ייעוץ ראשוני והכוונה. בדוק אם קליסטניקס מתאים לך ולאן אתה יכול להגיע.">
-<meta name="keywords" content="קליסטניקס, אבחון ראשוני, מפגש ראשוני, ליאב, NUTZ, calisthenics">
+<title>NUTZ Calisthenics | תלמידים חדשים — שיעורים ותהליך 90 ימים</title>
+<meta name="description" content="רוצה להתחיל קליסטניקס עם ליאב? שיעור של שעה, שעתיים, או תהליך מלא של 90 ימים אונליין. רק למי שמתאים.">
+<meta name="keywords" content="קליסטניקס, שיעור ראשוני, תהליך 90 ימים, ליאב, NUTZ, calisthenics">
 <meta name="author" content="NUTZ Calisthenics">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://nutzcalisthenics.com/assessment">
-<meta property="og:title" content="NUTZ Calisthenics | אבחון ראשוני עם ליאב">
-<meta property="og:description" content="שעה עם ליאב — בדיקת יכולות, ייעוץ אישי, ובחינת התאמה לתהליך.">
+<meta property="og:title" content="NUTZ Calisthenics | תלמידים חדשים">
+<meta property="og:description" content="שיעור שעה, שעתיים, או תהליך 90 ימים אונליין. רק למי שמתאים.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="he_IL">
 <meta property="og:site_name" content="NUTZ Calisthenics">
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service","name":"אבחון ראשוני — NUTZ Calisthenics","description":"מפגש אישי עם ליאב לבדיקת יכולות, ייעוץ ראשוני והכוונה בעולם הקליסטניקס","provider":{"@type":"Person","name":"ליאב","url":"https://nutzcalisthenics.com"}}
-</script>
 
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Heebo:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -25,16 +20,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <style>
-/* Assessment-specific overrides */
-.price-placeholder{text-align:center;padding:16px 24px;background:rgba(196,148,61,.05);border:1px dashed rgba(196,148,61,.2);border-radius:14px;color:var(--text-muted);font-size:.88rem;margin-bottom:28px}
-.for-who-list{max-width:700px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
-.for-who-item{display:flex;align-items:flex-start;gap:16px;background:linear-gradient(168deg,var(--bg-card) 0%,rgba(26,18,12,.5) 100%);border:1px solid rgba(196,148,61,.07);border-radius:16px;padding:22px 24px;transition:border-color .3s}
-.for-who-item:hover{border-color:rgba(196,148,61,.2)}
-.for-who-icon{flex-shrink:0;width:44px;height:44px;background:linear-gradient(135deg,rgba(196,148,61,.1),rgba(92,58,30,.15));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;border:1px solid rgba(196,148,61,.06)}
-.for-who-text h4{font-weight:700;font-size:1rem;color:var(--acorn-cream);margin-bottom:4px}
-.for-who-text p{color:var(--text-secondary);font-size:.88rem;line-height:1.7}
-.session-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(196,148,61,.06);border:1px solid rgba(196,148,61,.15);border-radius:12px;padding:10px 20px;font-size:.85rem;color:var(--text-secondary);margin-bottom:40px}
-.session-badge strong{color:var(--acorn-gold)}
+.note-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(196,148,61,.06);border:1px solid rgba(196,148,61,.15);border-radius:12px;padding:10px 20px;font-size:.85rem;color:var(--text-secondary);margin-top:16px}
+.note-badge strong{color:var(--acorn-gold)}
+.path-arrow{text-align:center;color:var(--acorn-gold);font-size:1.6rem;margin:8px 0;opacity:.5}
 </style>
 </head>
 <body>
@@ -48,92 +36,117 @@
 
   <div class="hero-badge">
     <span class="dot"></span>
-    אבחון ראשוני — מקומות מוגבלים
+    מקבלים תלמידים חדשים
   </div>
 
   <h1>NUTZ<span class="sub">CALISTHENICS</span></h1>
 
-  <p class="hero-subtitle">שעה עם ליאב שתשנה את הדרך שאתה מסתכל על הגוף שלך.<br>בדיקת יכולות, ייעוץ אישי ובחינת התאמה לתהליך.</p>
+  <p class="hero-subtitle">התחל עם שיעור — תראה איך ליאב עובד, תרגיש את השיטה.<br>אם יש התאמה, הדלת לתהליך ה-90 ימים פתוחה.</p>
 
   <div class="hero-cta-group">
-    <a href="#contact" class="btn-primary">קביעת אבחון</a>
-    <a href="#process" class="btn-ghost">מה כולל האבחון?</a>
+    <a href="#pricing" class="btn-primary">בחר פורמט</a>
+    <a href="#process" class="btn-ghost">איך זה עובד?</a>
   </div>
 
   <div class="scroll-indicator"><div class="line"></div></div>
 </section>
 
-<!-- ========== WHAT'S INCLUDED ========== -->
+<!-- ========== PRICING ========== -->
+<div class="section-divider"></div>
+<section class="pricing-section" id="pricing">
+  <div class="section-label">CHOOSE YOUR FORMAT</div>
+  <h2 class="section-title">בחר את הפורמט שלך</h2>
+  <p class="section-desc">מתחילים בשיעור. תהליך 90 ימים זמין רק למי שמתאים — ורק אונליין.</p>
+
+  <div class="pricing-grid">
+
+    <!-- שיעור שעה -->
+    <div class="price-card" data-anim="card">
+      <div class="price-duration">60 MIN</div>
+      <h3>שיעור — שעה</h3>
+      <p class="price-desc">מפגש פרונטלי אחד עם ליאב. תלמד, תעבוד, תבין לאן אתה הולך.</p>
+      <div class="price-amount">350<span class="currency">₪</span></div>
+      <div class="price-per">תשלום חד פעמי</div>
+      <div class="price-divider"></div>
+      <ul class="price-features">
+        <li><span class="ck">✓</span>שיעור פרטי פרונטלי</li>
+        <li><span class="ck">✓</span>מיפוי יכולות ראשוני</li>
+        <li><span class="ck">✓</span>הכוונה אישית מליאב</li>
+        <li><span class="ck">✓</span>תרגול מעשי</li>
+      </ul>
+      <a href="#contact" class="price-cta" data-format="שיעור שעה — 350₪">הרשמה לשיעור שעה</a>
+    </div>
+
+    <!-- שיעור שעתיים -->
+    <div class="price-card" data-anim="card">
+      <div class="price-duration">120 MIN</div>
+      <h3>שיעור — שעתיים</h3>
+      <p class="price-desc">מפגש פרונטלי מורחב. יותר זמן, יותר עומק, יותר חומר לעבד.</p>
+      <div class="price-amount">580<span class="currency">₪</span></div>
+      <div class="price-per">תשלום חד פעמי</div>
+      <div class="price-divider"></div>
+      <ul class="price-features">
+        <li><span class="ck">✓</span>שיעור פרטי פרונטלי מורחב</li>
+        <li><span class="ck">✓</span>מיפוי יכולות מעמיק</li>
+        <li><span class="ck">✓</span>תוכנית עבודה אישית</li>
+        <li><span class="ck">✓</span>הכוונה מפורטת להמשך</li>
+      </ul>
+      <a href="#contact" class="price-cta" data-format="שיעור שעתיים — 580₪">הרשמה לשיעור שעתיים</a>
+    </div>
+
+    <!-- תהליך 90 ימים -->
+    <div class="price-card featured" data-anim="card">
+      <div class="price-badge">רק למתאימים</div>
+      <div class="price-duration">90 DAYS</div>
+      <h3>תהליך מלא — 90 ימים</h3>
+      <p class="price-desc">ליווי אישי אונליין מלא. רק אחרי שיעור ראשוני ובדיקת התאמה עם ליאב.</p>
+      <div class="price-amount">3,050<span class="currency">₪</span></div>
+      <div class="price-per">~ ₪33.9 ליום · אונליין בלבד</div>
+      <div class="price-divider"></div>
+      <ul class="price-features">
+        <li><span class="ck">✓</span>תוכנית אימונים מותאמת אישית</li>
+        <li><span class="ck">✓</span>שיעורי 1:1 בווידאו</li>
+        <li><span class="ck">✓</span>מעקב ועדכון שוטף</li>
+        <li><span class="ck">✓</span>זמינות ישירה מליאב</li>
+        <li><span class="ck">✓</span>בניית כוח, שליטה וסקילים</li>
+      </ul>
+      <a href="#contact" class="price-cta" data-format="תהליך 90 ימים — 3050₪">התחל עם שיעור ראשוני</a>
+    </div>
+
+  </div>
+
+  <div style="text-align:center">
+    <div class="note-badge">
+      💡 <span>כדי להצטרף לתהליך 90 ימים יש לעבור <strong>שיעור ראשוני</strong> ואישור התאמה מליאב</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
 <div class="section-divider"></div>
 <section class="section" id="process">
-  <div class="section-label">THE SESSION</div>
-  <h2 class="section-title">מה קורה במפגש?</h2>
-  <p class="section-desc">מפגש אחד, שעה אחת — ותצא ממנו עם תמונה ברורה לגמרי.</p>
+  <div class="section-label">THE NUTZ METHOD</div>
+  <h2 class="section-title">איך זה עובד?</h2>
+  <p class="section-desc">תהליך פשוט. מגיעים לשיעור, רואים אם יש התאמה — ממשיכים משם.</p>
 
   <div class="process-grid">
     <div class="process-card" data-anim="card">
       <div class="process-num">01</div>
       <div class="process-icon">🎯</div>
-      <h3>בדיקת יכולות</h3>
-      <p>מיפוי מלא של הרמה הנוכחית שלך — מה הגוף שלך יכול, מה הוא מחסיר, ומה הפוטנציאל האמיתי שלך.</p>
+      <h3>בחר שיעור ראשוני</h3>
+      <p>שעה או שעתיים — בא לפגוש את ליאב, לראות את השיטה מקרוב ולעבוד על הגוף שלך.</p>
     </div>
     <div class="process-card" data-anim="card">
       <div class="process-num">02</div>
-      <div class="process-icon">💡</div>
-      <h3>ייעוץ והכוונה</h3>
-      <p>ליאב ייתן לך תמונה ברורה — מה לעבוד עליו ראשון, איך להתחיל נכון, ומה חשוב להימנע ממנו.</p>
+      <div class="process-icon">🔍</div>
+      <h3>בחינת התאמה</h3>
+      <p>ליאב יבחן את הרמה שלך, יבין את המטרות שלך, ויחליט יחד איתך אם תהליך ה-90 ימים מתאים.</p>
     </div>
     <div class="process-card" data-anim="card">
       <div class="process-num">03</div>
-      <div class="process-icon">✅</div>
-      <h3>בחינת התאמה</h3>
-      <p>ליאב יבדוק אם אתה מוכן לתהליך ליווי רציני. לא כולם מתקבלים לתהליך — וזה חלק מהאיכות.</p>
-    </div>
-  </div>
-
-  <div style="text-align:center;margin-top:48px">
-    <div class="session-badge">
-      <span>📍</span>
-      <span>המפגש <strong>פרונטלי</strong> אצל ליאב &nbsp;·&nbsp; משך: <strong>כשעה</strong> &nbsp;·&nbsp; מחיר: <strong>יעודכן בקרוב</strong></span>
-    </div>
-  </div>
-</section>
-
-<!-- ========== FOR WHO ========== -->
-<div class="section-divider"></div>
-<section class="section" id="forwho">
-  <div class="section-label">IS THIS FOR YOU</div>
-  <h2 class="section-title">למי מתאים האבחון?</h2>
-  <p class="section-desc">אם אחד מהמשפטים האלה מדבר אליך — כנראה שכן.</p>
-
-  <div class="for-who-list">
-    <div class="for-who-item" data-anim="card">
-      <div class="for-who-icon">🔰</div>
-      <div class="for-who-text">
-        <h4>מעולם לא התאמנת קליסטניקס</h4>
-        <p>אתה רוצה להיכנס לעולם הזה אבל לא יודע מאיפה להתחיל. האבחון יתן לך בסיס ברור.</p>
-      </div>
-    </div>
-    <div class="for-who-item" data-anim="card">
-      <div class="for-who-icon">🔄</div>
-      <div class="for-who-text">
-        <h4>אתה מתאמן אבל לא מתקדם</h4>
-        <p>משקיע שעות אבל לא רואה תוצאות? אבחון יחשוף בדיוק מה חוסם אותך.</p>
-      </div>
-    </div>
-    <div class="for-who-item" data-anim="card">
-      <div class="for-who-icon">❓</div>
-      <div class="for-who-text">
-        <h4>אתה לא בטוח אם קליסטניקס בשבילך</h4>
-        <p>תוציא את הספק מהמשוואה. בסוף המפגש תדע בדיוק אם זה הכיוון הנכון.</p>
-      </div>
-    </div>
-    <div class="for-who-item" data-anim="card">
-      <div class="for-who-icon">🎯</div>
-      <div class="for-who-text">
-        <h4>יש לך מטרה ספציפית</h4>
-        <p>מסל אפ, הנדסטנד, פלאנש — ליאב יבנה לך מפת דרכים ברורה להגיע לשם.</p>
-      </div>
+      <div class="process-icon">🚀</div>
+      <h3>תהליך 90 ימים אונליין</h3>
+      <p>אם יש התאמה — נכנסים לתהליך ליווי מלא. תוכנית, שיעורי 1:1, מעקב ושליטה בגוף.</p>
     </div>
   </div>
 </section>
@@ -142,14 +155,14 @@
 <div class="section-divider"></div>
 <section class="about-section" id="about">
   <div class="section-label">YOUR COACH</div>
-  <h2 class="section-title">מי עושה את האבחון?</h2>
+  <h2 class="section-title">למה NUTZ?</h2>
   <div class="about-inner" data-anim="about">
     <div class="about-avatar">
-      <img src="public/images/liav-planch.png" alt="ליאב — מאמן NUTZ Calisthenics" loading="lazy">
+      <img src="public/images/liav-planch.png" alt="ליאב — מאמן NUTZ Calisthenics — עושה planche" loading="lazy">
     </div>
     <div class="about-text">
       <h3>ליאב | NUTZ Calisthenics</h3>
-      <p>מאמן קליסטניקס עם 14+ שנות ניסיון, רקע בספורטתרפיה והתמחות בתנועה ושיקום. ליאב לא עושה אבחונים סדרתיים — כל מפגש מקבל תשומת לב מלאה ואמיתית. אם יש התאמה, תדע את זה בסוף השעה.</p>
+      <p>מאמן קליסטניקס עם 14+ שנות ניסיון, רקע בספורטתרפיה והתמחות בתנועה ושיקום. עובד עם מספר מוגבל של מתאמנים ונותן ליווי אישי אמיתי — לא תוכנית PDF גנרית.</p>
     </div>
   </div>
 </section>
@@ -159,44 +172,44 @@
 <section class="faq-section" id="faq">
   <img src="public/images/nutz-avatar-sticker.png" class="faq-mascot" alt="NUTZ mascot">
   <div class="section-label">FAQ</div>
-  <h2 class="section-title">שאלות על האבחון</h2>
-  <p class="section-desc">כל מה שרצית לדעת לפני שאתה קובע</p>
+  <h2 class="section-title">שאלות נפוצות</h2>
+  <p class="section-desc">תשובות לפני שאתה מחליט</p>
 
   <div class="faq-list">
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>האם האבחון מחייב אותי להצטרף לתהליך?</h4>
+        <h4>האם השיעור מחייב אותי להצטרף לתהליך?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">לא. האבחון הוא מפגש עצמאי לגמרי. בסופו תדע בדיוק איפה אתה ומה האפשרויות שלך — ללא שום התחייבות.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">לא. כל שיעור הוא עצמאי ולא מחייב המשך. תהליך ה-90 ימים הוא אפשרות — לא חובה.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>כמה זמן נמשך המפגש?</h4>
+        <h4>מה ההבדל בין שיעור שעה לשעתיים?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">כשעה. המפגש הוא פרונטלי אצל ליאב — תאריך ומיקום מדויק בתיאום אישי.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">שיעור שעה נותן בסיס ראשוני טוב. שיעור שעתיים מאפשר לליאב לצלול עמוק יותר — יותר תרגול, יותר הכוונה, תוכנית עבודה מפורטת יותר.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>מה צריך להביא?</h4>
+        <h4>איך מתקבלים לתהליך ה-90 ימים?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">רק בגדי ספורט ומוכנות לעבוד. כל השאר ליאב מסדר.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">רק דרך שיעור ראשוני. ליאב צריך לראות אותך עובד לפני שמחליטים יחד אם יש התאמה לתהליך הליווי.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>מה קורה אחרי האבחון?</h4>
+        <h4>האם תהליך ה-90 ימים הוא אונליין בלבד?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">ליאב ישתף אותך בממצאים ויציג בפניך את האפשרויות הרלוונטיות. אם יש התאמה לתהליך ליווי — תקבל הצעה מסודרת.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">כן. תהליך ה-90 ימים הוא אונליין מלא — תוכנית, שיעורי 1:1 בווידאו ומעקב שוטף. השיעורים הבודדים (שעה/שעתיים) הם פרונטליים.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>מה המחיר?</h4>
+        <h4>האם צריך ניסיון קודם?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">המחיר יעודכן בקרוב. צור קשר ונסגור את הפרטים.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">לא. גם אם אף פעם לא נגעת בבר — השיעור הראשוני בנוי בדיוק לזה. ליאב יפגוש אותך מאיפה שאתה.</div></div>
     </div>
   </div>
 </section>
@@ -205,8 +218,8 @@
 <div class="section-divider"></div>
 <section class="form-section" id="contact">
   <div class="section-label">LET'S GO</div>
-  <h2 class="section-title">קביעת אבחון ראשוני</h2>
-  <p class="section-desc">השאר פרטים וליאב יחזור אליך לתיאום המפגש.</p>
+  <h2 class="section-title">קביעת שיעור ראשוני</h2>
+  <p class="section-desc">השאר פרטים וליאב יחזור אליך תוך 24 שעות.</p>
 
   <div class="form-card" data-anim="form">
     <form id="assessmentForm">
@@ -219,26 +232,25 @@
         <input type="tel" id="aphone" name="phone" required placeholder="05X-XXXXXXX" dir="ltr" style="text-align:right">
       </div>
       <div class="form-group">
-        <label for="aexp">רמת ניסיון</label>
-        <select id="aexp" name="experience">
+        <label for="aformat">פורמט מועדף</label>
+        <select id="aformat" name="format">
           <option value="">בחר...</option>
-          <option value="beginner">מתחיל — אין ניסיון בקליסטניקס</option>
-          <option value="some">יש לי קצת ניסיון</option>
-          <option value="intermediate">מתאמן אבל לא מתקדם</option>
-          <option value="other">אחר</option>
+          <option value="60min">שיעור שעה — 350₪</option>
+          <option value="120min">שיעור שעתיים — 580₪</option>
+          <option value="90days">מעוניין בתהליך 90 ימים</option>
         </select>
       </div>
       <div class="form-group">
-        <label for="amsg">מה המטרה שלך? (אופציונלי)</label>
-        <textarea id="amsg" name="message" rows="3" placeholder="מסל אפ, הנדסטנד, ירידה במשקל..."></textarea>
+        <label for="amsg">רקע ומטרות (אופציונלי)</label>
+        <textarea id="amsg" name="message" rows="3" placeholder="ניסיון, מטרות, שאלות..."></textarea>
       </div>
-      <button type="submit" class="form-submit" id="assessmentSubmitBtn">קביעת אבחון</button>
+      <button type="submit" class="form-submit" id="assessmentSubmitBtn">שליחת פרטים</button>
     </form>
 
     <div class="form-success" id="assessmentSuccess">
       <div class="big-check">✅</div>
       <h4>הפרטים נשלחו!</h4>
-      <p>ליאב יחזור אליך לתיאום המפגש תוך 24 שעות.</p>
+      <p>ליאב יחזור אליך תוך 24 שעות לתיאום השיעור.</p>
     </div>
   </div>
 </section>
@@ -246,7 +258,7 @@
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="footer-logo">NUTZ</div>
-  <p>© 2025 NUTZ Calisthenics · <a href="index.html" style="color:var(--acorn-gold);text-decoration:none">לתהליכי הליווי ←</a></p>
+  <p>© 2025 NUTZ Calisthenics &nbsp;·&nbsp; <a href="index.html" style="color:var(--acorn-gold);text-decoration:none">תהליכי ליווי מתקדמים ←</a></p>
 </footer>
 
 <script src="main-assessment.js"></script>

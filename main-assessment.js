@@ -25,10 +25,10 @@ document.getElementById('assessmentForm').addEventListener('submit', async funct
   btn.textContent = 'שולח...';
 
   const data = {
-    type: 'assessment',
+    type: 'new-student',
     name: document.getElementById('aname').value,
     phone: document.getElementById('aphone').value,
-    experience: document.getElementById('aexp').value,
+    format: document.getElementById('aformat').value,
     message: document.getElementById('amsg').value,
     timestamp: new Date().toISOString()
   };
