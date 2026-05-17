@@ -89,7 +89,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 
 /* ===== FAQ ===== */
 .faq-section{padding:80px 20px 100px;position:relative}
-.faq-mascot{position:absolute;top:220px;left:calc(50% - 530px);width:150px;opacity:0;pointer-events:none;z-index:2}
+.faq-mascot{position:absolute;top:200px;left:calc(50% - 540px);width:180px;opacity:0;pointer-events:none;z-index:2}
 .faq-list{max-width:700px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
 .faq-item{background:var(--bg-card);border:1px solid rgba(196,148,61,.06);border-radius:16px;overflow:hidden;transition:border-color .3s}
 .faq-item:hover,.faq-item.open{border-color:rgba(196,148,61,.2)}
@@ -136,7 +136,7 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .process-grid{grid-template-columns:1fr;max-width:400px;margin:0 auto}
 .about-inner{flex-direction:column;text-align:center}
 .about-avatar{width:130px;height:230px;margin:0 auto}
-.faq-mascot{display:none}
+.faq-mascot{position:relative;top:auto;left:auto;width:90px;display:block;margin:0 auto 24px;opacity:0}
 .form-card{padding:36px 24px}
 .hero h1{font-size:clamp(3.5rem,14vw,6rem)}
 .hero-cta-group{flex-direction:column;align-items:center}
