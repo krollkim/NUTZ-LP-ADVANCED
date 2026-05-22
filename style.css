@@ -142,6 +142,10 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 .hero-cta-group{flex-direction:column;align-items:center}
 }
 
+/* ===== PHOSPHOR ICONS ===== */
+.process-icon i,.hub-card-icon i{color:var(--acorn-gold)}
+.hub-card-icon i{font-size:2.4rem}
+
 ::-webkit-scrollbar{width:5px}
 ::-webkit-scrollbar-track{background:var(--bg-deep)}
 ::-webkit-scrollbar-thumb{background:var(--acorn-brown);border-radius:3px}
