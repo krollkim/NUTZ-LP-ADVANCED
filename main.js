@@ -25,6 +25,7 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
   btn.textContent = 'שולח...';
 
   const data = {
+    type: 'plans',
     name: document.getElementById('fname').value,
     phone: document.getElementById('fphone').value,
     track: document.getElementById('ftrack').value,

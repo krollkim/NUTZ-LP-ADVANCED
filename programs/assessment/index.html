@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NUTZ Calisthenics | תלמידים חדשים — שיעורים ותהליך 90 ימים</title>
+<title>NUTZ Calisthenics | תלמידים חדשים - שיעורים ותהליך 90 ימים</title>
 <meta name="description" content="רוצה להתחיל קליסטניקס עם ליאב? שיעור של שעה, שעתיים, או תהליך מלא של 90 ימים אונליין. רק למי שמתאים.">
 <meta name="keywords" content="קליסטניקס, שיעור ראשוני, תהליך 90 ימים, ליאב, NUTZ, calisthenics">
 <meta name="author" content="NUTZ Calisthenics">
@@ -18,7 +18,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../../style.css">
 <style>
 .note-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(196,148,61,.06);border:1px solid rgba(196,148,61,.15);border-radius:12px;padding:10px 20px;font-size:.85rem;color:var(--text-secondary);margin-top:16px}
 .note-badge strong{color:var(--acorn-gold)}
@@ -27,12 +27,16 @@
 </head>
 <body>
 
+<nav style="position:fixed;top:20px;right:20px;z-index:100">
+  <a href="/" style="display:inline-flex;align-items:center;gap:8px;background:rgba(13,8,6,.85);backdrop-filter:blur(10px);border:1px solid rgba(196,148,61,.2);border-radius:100px;padding:8px 18px;color:#D4A843;font-size:.82rem;font-weight:600;text-decoration:none;font-family:'Heebo',sans-serif">← כל התוכניות</a>
+</nav>
+
 <div class="ambient-glow glow-1"></div>
 <div class="ambient-glow glow-2"></div>
 
 <!-- ========== HERO ========== -->
 <section class="hero" id="top">
-  <img src="public/images/nutz-logo.png" alt="NUTZ Calisthenics Logo" class="hero-logo" width="130" height="130">
+  <img src="../../public/images/nutz-logo.png" alt="NUTZ Calisthenics Logo" class="hero-logo" width="130" height="130">
 
   <div class="hero-badge">
     <span class="dot"></span>
@@ -41,10 +45,14 @@
 
   <h1>NUTZ<span class="sub">CALISTHENICS</span></h1>
 
-  <p class="hero-subtitle">התחל עם שיעור — תראה איך ליאב עובד, תרגיש את השיטה.<br>אם יש התאמה, הדלת לתהליך ה-90 ימים פתוחה.</p>
+  <p class="hero-subtitle">בפגישת ה-POWERUP הראשונה שלנו אתה מקבל את המפתח.<br>
+
+  שיעור עוצמתי שבו תקבל את כל הערך, הידע והכיוון שאתה צריך כדי להתקדם.
+  
+  מצאנו התאמה? נמשיך יחד לתוכנית ה-90 ימים - המקום שבו אנחנו הופכים את הערך הזה לתוצאות בשטח ומטמיעים את השיטה בחיים שלך</p>
 
   <div class="hero-cta-group">
-    <a href="#pricing" class="btn-primary">בחר פורמט</a>
+    <a href="#pricing" class="btn-primary">לצפייה במסלולים</a>
     <a href="#process" class="btn-ghost">איך זה עובד?</a>
   </div>
 
@@ -55,62 +63,62 @@
 <div class="section-divider"></div>
 <section class="pricing-section" id="pricing">
   <div class="section-label">CHOOSE YOUR FORMAT</div>
-  <h2 class="section-title">בחר את הפורמט שלך</h2>
-  <p class="section-desc">מתחילים בשיעור. תהליך 90 ימים זמין רק למי שמתאים — ורק אונליין.</p>
+  <h2 class="section-title">בחר את המסלול שלך</h2>
+  <p class="section-desc">מתחילים בשיעור. תהליך 90 ימים זמין רק למי שמתאים - ורק אונליין.</p>
 
   <div class="pricing-grid">
 
     <!-- שיעור שעה -->
     <div class="price-card" data-anim="card">
       <div class="price-duration">60 MIN</div>
-      <h3>שיעור — שעה</h3>
-      <p class="price-desc">מפגש פרונטלי אחד עם ליאב. תלמד, תעבוד, תבין לאן אתה הולך.</p>
+      <h3>פגישת POWERUP – שעה</h3>
+      <p class="price-desc">הצעד הראשון שלך. מפגש אונליין אישי בוידאו (1:1) שבו תעבור טרנספורמציה, תקבל את כל הערך, הידע והכיוון שאתה צריך כדי להתקדם ובסופו נבדוק התאמה לתהליך המלא.</p>
       <div class="price-amount">350<span class="currency">₪</span></div>
       <div class="price-per">תשלום חד פעמי</div>
       <div class="price-divider"></div>
       <ul class="price-features">
-        <li><span class="ck">✓</span>שיעור פרטי פרונטלי</li>
-        <li><span class="ck">✓</span>מיפוי יכולות ראשוני</li>
-        <li><span class="ck">✓</span>הכוונה אישית מליאב</li>
-        <li><span class="ck">✓</span>תרגול מעשי</li>
+        <li><span class="ck">✓</span>מפגש אונליין אישי בוידאו (1:1) עם ליאב</li>
+        <li><span class="ck">✓</span>אבחון תנועה דיגיטלי ומיפוי יכולות ראשוני</li>
+        <li><span class="ck">✓</span>בניית אסטרטגיית אימון ומפת דרכים להתקדמות</li>
+        <li><span class="ck">✓</span>תרגול טכניקה ודגשים יישומיים ממוקדים</li>
       </ul>
-      <a href="#contact" class="price-cta" data-format="שיעור שעה — 350₪">הרשמה לשיעור שעה</a>
+      <a href="#contact" class="price-cta" data-format="פגישת POWERUP - 350₪">שריין פגישת POWERUP בוידאו</a>
     </div>
 
     <!-- שיעור שעתיים -->
     <div class="price-card" data-anim="card">
       <div class="price-duration">120 MIN</div>
-      <h3>שיעור — שעתיים</h3>
-      <p class="price-desc">מפגש פרונטלי מורחב. יותר זמן, יותר עומק, יותר חומר לעבד.</p>
+      <h3>פגישת POWERUP מורחבת – שעתיים</h3>
+      <p class="price-desc">למי שרוצה לצלול עמוק כבר על ההתחלה. שעתיים מרוכזות באונליין בוידאו (1:1) טרנספורמציה, הבנה של הטכניקה שלך, תיקון שגיאות ובניית כיוון ברור כולל בדיקת התאמה לתהליך המלא.</p>
       <div class="price-amount">580<span class="currency">₪</span></div>
       <div class="price-per">תשלום חד פעמי</div>
       <div class="price-divider"></div>
       <ul class="price-features">
-        <li><span class="ck">✓</span>שיעור פרטי פרונטלי מורחב</li>
-        <li><span class="ck">✓</span>מיפוי יכולות מעמיק</li>
-        <li><span class="ck">✓</span>תוכנית עבודה אישית</li>
-        <li><span class="ck">✓</span>הכוונה מפורטת להמשך</li>
+        <li><span class="ck">✓</span>מפגש אונליין בוידאו 1:1 (זמן כפול)</li>
+        <li><span class="ck">✓</span>אבחון תנועה ביו-מכני ומיפוי מעמיק של הטכניקה</li>
+        <li><span class="ck">✓</span>בניית תוכנית עבודה עצמאית ומפורטת בשטח</li>
+        <li><span class="ck">✓</span>ניתוח ביצועים מדויק ומפת דרכים להתקדמות</li>
       </ul>
-      <a href="#contact" class="price-cta" data-format="שיעור שעתיים — 580₪">הרשמה לשיעור שעתיים</a>
+      <a href="#contact" class="price-cta" data-format="פגישת POWERUP מורחבת - 580₪">שריין פגישת וידאו מורחבת</a>
     </div>
 
     <!-- תהליך 90 ימים -->
     <div class="price-card featured" data-anim="card">
       <div class="price-badge">רק למתאימים</div>
       <div class="price-duration">90 DAYS</div>
-      <h3>תהליך מלא — 90 ימים</h3>
-      <p class="price-desc">ליווי אישי אונליין מלא. רק אחרי שיעור ראשוני ובדיקת התאמה עם ליאב.</p>
+      <h3>תהליך מלא - 90 ימים</h3>
+      <p class="price-desc">שלב יישום והטמעת הערך בחיים שלך. מעטפת אונליין מקיפה המבוססת על מערכת של רמות ושלבים להצלחה בקליסטניקס הזמינה רק לאחר פגישת POWERUP ראשונית (בוידאו) ובדיקת התאמה ומחויבות הדדית.</p>
       <div class="price-amount">3,050<span class="currency">₪</span></div>
-      <div class="price-per">~ ₪33.9 ליום · אונליין בלבד</div>
+      <div class="price-per">אונליין</div>
       <div class="price-divider"></div>
       <ul class="price-features">
-        <li><span class="ck">✓</span>תוכנית אימונים מותאמת אישית</li>
-        <li><span class="ck">✓</span>שיעורי 1:1 בווידאו</li>
-        <li><span class="ck">✓</span>מעקב ועדכון שוטף</li>
-        <li><span class="ck">✓</span>זמינות ישירה מליאב</li>
-        <li><span class="ck">✓</span>בניית כוח, שליטה וסקילים</li>
+        <li><span class="ck">✓</span>ליווי בצ'אט אישי ומסודר ישירות מול ליאב</li>
+        <li><span class="ck">✓</span>תוכניות אימון מובנות ומותאמות אישית אליך</li>
+        <li><span class="ck">✓</span>גישה לקהילת המתאמנים הסגורה של NUTZ</li>
+        <li><span class="ck">✓</span>מעקב ובקרה שוטפת על יישום התוכנית ביום-יום</li>
+        <li><span class="ck">✓</span>ניתוח סרטוני טכניקה ודיוק ביצועים מרחוק</li>
       </ul>
-      <a href="#contact" class="price-cta" data-format="תהליך 90 ימים — 3050₪">התחל עם שיעור ראשוני</a>
+      <a href="#contact" class="price-cta" data-format="תהליך 90 ימים - 3050₪">התחל עם שיעור ראשון לבדיקת התאמה</a>
     </div>
 
   </div>
@@ -127,50 +135,35 @@
 <section class="section" id="process">
   <div class="section-label">THE NUTZ METHOD</div>
   <h2 class="section-title">איך זה עובד?</h2>
-  <p class="section-desc">תהליך פשוט. מגיעים לשיעור, רואים אם יש התאמה — ממשיכים משם.</p>
+  <p class="section-desc">זה לא עוד חוג כושר, זו דרך חיים. תהליך מדויק שלוקח אותך מקבלת הכלים ועד לשינוי בלתי הפיך בשטח.</p>
 
   <div class="process-grid">
     <div class="process-card" data-anim="card">
       <div class="process-num">01</div>
       <div class="process-icon">🎯</div>
-      <h3>בחר שיעור ראשוני</h3>
-      <p>שעה או שעתיים — בא לפגוש את ליאב, לראות את השיטה מקרוב ולעבוד על הגוף שלך.</p>
+      <h3>פגישת POWERUP (בוידאו)</h3>
+      <p>מפגש אונליין של שעה או שעתיים שבו אנחנו מפרקים את הטכניקה שלך מאפס. אתה לא בא ל"שיעור ניסיון", אתה בא לקבל מפת דרכים מדויקת, ערך יישומי וכיוון ברור קדימה.</p>
     </div>
     <div class="process-card" data-anim="card">
       <div class="process-num">02</div>
-      <div class="process-icon">🔍</div>
-      <h3>בחינת התאמה</h3>
-      <p>ליאב יבחן את הרמה שלך, יבין את המטרות שלך, ויחליט יחד איתך אם תהליך ה-90 ימים מתאים.</p>
+      <div class="process-icon">🤝</div>
+      <h3>תיאום ציפיות ובדיקת התאמה</h3>
+      <p>אנחנו מוודאים שיש בינינו כימיה מלאה ושרמת המחויבות שלך תואמת את הסטנדרטים של התוכנית. המטרה היא אחת: לוודא שאתה מוכן לעשות את הקפיצה, ושנעבוד רק עם מי שרוצה תוצאות אמיתיות.</p>
     </div>
     <div class="process-card" data-anim="card">
       <div class="process-num">03</div>
-      <div class="process-icon">🚀</div>
-      <h3>תהליך 90 ימים אונליין</h3>
-      <p>אם יש התאמה — נכנסים לתהליך ליווי מלא. תוכנית, שיעורי 1:1, מעקב ושליטה בגוף.</p>
+      <div class="process-icon">🔥</div>
+      <h3>הטמעה וטרנספורמציה (90 ימים)</h3>
+      <p>כאן קורה הקסם האמיתי. בליווי בצ'אט, תוכנית מותאמת אישית וקהילה, אנחנו יוצרים את השלב הבא בקליסטניקס</p>
     </div>
   </div>
 </section>
 
-<!-- ========== ABOUT ========== -->
-<div class="section-divider"></div>
-<section class="about-section" id="about">
-  <div class="section-label">YOUR COACH</div>
-  <h2 class="section-title">למה NUTZ?</h2>
-  <div class="about-inner" data-anim="about">
-    <div class="about-avatar">
-      <img src="public/images/liav-planch.png" alt="ליאב — מאמן NUTZ Calisthenics — עושה planche" loading="lazy">
-    </div>
-    <div class="about-text">
-      <h3>ליאב | NUTZ Calisthenics</h3>
-      <p>מאמן קליסטניקס עם 14+ שנות ניסיון, רקע בספורטתרפיה והתמחות בתנועה ושיקום. עובד עם מספר מוגבל של מתאמנים ונותן ליווי אישי אמיתי — לא תוכנית PDF גנרית.</p>
-    </div>
-  </div>
-</section>
 
 <!-- ========== FAQ ========== -->
 <div class="section-divider"></div>
 <section class="faq-section" id="faq">
-  <img src="public/images/nutz-avatar-sticker.png" class="faq-mascot" alt="NUTZ mascot">
+  <img src="../../public/images/nutz-avatar-sticker.png" class="faq-mascot" alt="NUTZ mascot">
   <div class="section-label">FAQ</div>
   <h2 class="section-title">שאלות נפוצות</h2>
   <p class="section-desc">תשובות לפני שאתה מחליט</p>
@@ -181,14 +174,14 @@
         <h4>האם השיעור מחייב אותי להצטרף לתהליך?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">לא. כל שיעור הוא עצמאי ולא מחייב המשך. תהליך ה-90 ימים הוא אפשרות — לא חובה.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">לא. אבל במידה ואנחנו ממשיכים לתהליך עלות השיעור תיהיה כלולה בתהליך ה-90 ימים. תהליך ה-90 ימים הוא אפשרות - לא חובה.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
         <h4>מה ההבדל בין שיעור שעה לשעתיים?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">שיעור שעה נותן בסיס ראשוני טוב. שיעור שעתיים מאפשר לליאב לצלול עמוק יותר — יותר תרגול, יותר הכוונה, תוכנית עבודה מפורטת יותר.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">שיעור שעה נותן בסיס ראשוני טוב. שיעור שעתיים מאפשר לליאב לצלול עמוק יותר - יותר תרגול, יותר הכוונה, תוכנית עבודה מפורטת יותר.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
@@ -202,14 +195,14 @@
         <h4>האם תהליך ה-90 ימים הוא אונליין בלבד?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">כן. תהליך ה-90 ימים הוא אונליין מלא — תוכנית, שיעורי 1:1 בווידאו ומעקב שוטף. השיעורים הבודדים (שעה/שעתיים) הם פרונטליים.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">כן - וזה בדיוק הנקודה. התהליך הוא אישי ומתנהל בקצב שלך, בתוך תקשורת שוטפת עם ליאב. המטרה היא לא ליצור תלות - אלא להפך: לבנות לך שגרת חיים עצמאית שבה אתה יודע מה לעשות, איך לעשות ולמה. ליאב נותן לך את הידע, הכלים וסקירת הביצועים שלך - אתה מיישם בשטח. בסוף 90 הימים אתה מתקדם שלב לעבר העצמאות שלך, כי הכלים כבר אצלך.</div></div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">
         <h4>האם צריך ניסיון קודם?</h4>
         <span class="arrow">▼</span>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">לא. גם אם אף פעם לא נגעת בבר — השיעור הראשוני בנוי בדיוק לזה. ליאב יפגוש אותך מאיפה שאתה.</div></div>
+      <div class="faq-a"><div class="faq-a-inner">לא. גם אם אף פעם לא נגעת בבר - השיעור הראשוני בנוי בדיוק לזה. ליאב יפגוש אותך מאיפה שאתה.</div></div>
     </div>
   </div>
 </section>
@@ -219,7 +212,7 @@
 <section class="form-section" id="contact">
   <div class="section-label">LET'S GO</div>
   <h2 class="section-title">קביעת שיעור ראשוני</h2>
-  <p class="section-desc">השאר פרטים וליאב יחזור אליך תוך 24 שעות.</p>
+  <p class="section-desc">השאר פרטים ואחזור אליך תוך 24 שעות.</p>
 
   <div class="form-card" data-anim="form">
     <form id="assessmentForm">
@@ -235,8 +228,8 @@
         <label for="aformat">פורמט מועדף</label>
         <select id="aformat" name="format">
           <option value="">בחר...</option>
-          <option value="60min">שיעור שעה — 350₪</option>
-          <option value="120min">שיעור שעתיים — 580₪</option>
+          <option value="60min">שיעור שעה - 350₪</option>
+          <option value="120min">שיעור שעתיים - 580₪</option>
           <option value="90days">מעוניין בתהליך 90 ימים</option>
         </select>
       </div>
@@ -258,9 +251,9 @@
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="footer-logo">NUTZ</div>
-  <p>© 2025 NUTZ Calisthenics &nbsp;·&nbsp; <a href="index.html" style="color:var(--acorn-gold);text-decoration:none">תהליכי ליווי מתקדמים ←</a></p>
+  <p>&copy; 2026 NUTZ Calisthenics &nbsp;·&nbsp; <a href="/" style="color:var(--acorn-gold);text-decoration:none">← כל התוכניות</a></p>
 </footer>
 
-<script src="main-assessment.js"></script>
+<script src="../../main-assessment.js"></script>
 </body>
 </html>

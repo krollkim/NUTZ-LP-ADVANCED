@@ -1,269 +1,142 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NUTZ Calisthenics | להתחיל ולהתקדם בקליסטניקס באונליין</title>
-<meta name="description" content="ליווי 1:1 מותאם אישית בקליסטניקס עם ליאב. תהליכי 90, 180 ו-360 ימים. בניית כוח, שליטה וסקילים - אונליין ופרונטלי.">
-<meta name="keywords" content="קליסטניקס, calisthenics, אימון משקל גוף, מסל אפ, הנדסטנד, אימון אונליין, ליאב, NUTZ">
-<meta name="author" content="NUTZ Calisthenics">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://nutzcalisthenics.com">
-<meta property="og:title" content="NUTZ Calisthenics | להתחיל ולהתקדם בקליסטניקס באונליין">
-<meta property="og:description" content="ליווי 1:1 מותאם אישית בקליסטניקס עם ליאב. תהליכי 90, 180 ו-360 ימים.">
+<title>תוכניות אימון | NUTZ Calisthenics</title>
+<meta name="description" content="בחר את מסלול הקליסטניקס שמתאים לך — תוכניות אימון, מבצעים מיוחדים, ושיעורי ניסיון עם ליאב.">
+<meta property="og:title" content="תוכניות אימון | NUTZ Calisthenics">
+<meta property="og:description" content="בחר את מסלול הקליסטניקס שמתאים לך — תוכניות אימון, מבצעים מיוחדים, ושיעורי ניסיון עם ליאב.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://nutzcalisthenics.com">
 <meta property="og:locale" content="he_IL">
-<meta property="og:site_name" content="NUTZ Calisthenics">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="NUTZ Calisthenics | תהליכי אימון קליסטניקס">
-<meta name="twitter:description" content="בנה כוח אמיתי. שליטה מלאה בגוף. תהליכי אימון מותאמים אישית.">
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"NUTZ Calisthenics","description":"תהליכי אימון קליסטניקס מותאמים אישית עם ליווי 1:1","url":"https://nutzcalisthenics.com","priceRange":"₪3,050 - ₪10,500","currenciesAccepted":"ILS","areaServed":{"@type":"Place","name":"Worldwide (Online)"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"תהליכי אימון","itemListElement":[{"@type":"Offer","name":"תהליך 90 ימים","price":"3050","priceCurrency":"ILS"},{"@type":"Offer","name":"תהליך 180 ימים","price":"5800","priceCurrency":"ILS"},{"@type":"Offer","name":"תהליך 360 ימים","price":"10500","priceCurrency":"ILS"}]}}
+{"@context":"https://schema.org","@type":"WebPage","name":"תוכניות אימון NUTZ Calisthenics","description":"בחר את מסלול הקליסטניקס שמתאים לך","url":"https://nutzcalisthenics.com"}
 </script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"האם צריך ניסיון קודם בקליסטניקס?","acceptedAnswer":{"@type":"Answer","text":"לא. התהליך מתחיל מאיפה שאתה נמצא. בשיחת ההיכרות נבין את הרמה שלך ונבנה תוכנית מותאמת."}},{"@type":"Question","name":"איך עובד הליווי האונליין?","acceptedAnswer":{"@type":"Answer","text":"תוכנית אימונים מתעדכנת, שיעורי 1:1 בווידאו, מעקב שוטף, וזמינות ישירה מליאב. כשליאב בארץ - גם מפגשים פרונטליים."}},{"@type":"Question","name":"מה ההבדל בין המסלולים?","acceptedAnswer":{"@type":"Answer","text":"כל המסלולים כוללים ליווי אישי מלא. ההבדל במשך הזמן, מספר שיעורי ה-1:1, ועומק התהליך."}},{"@type":"Question","name":"אפשר לשלם בתשלומים?","acceptedAnswer":{"@type":"Answer","text":"כן, אפשר לפרוס תשלומים. פרטים מלאים בשיחה האישית עם ליאב."}}]}
-</script>
-
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Heebo:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
-
 <link rel="stylesheet" href="style.css">
+<style>
+.hub-header{min-height:42vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 20px 40px;position:relative}
+.hub-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(196,148,61,0.07) 0%,transparent 60%);pointer-events:none}
+.hub-title{font-family:'Bebas Neue','Oswald',sans-serif;font-size:clamp(3rem,10vw,6rem);letter-spacing:0.06em;line-height:0.85;color:var(--acorn-gold);text-shadow:0 0 80px rgba(196,148,61,0.2);margin-bottom:12px}
+.hub-title span{display:block;font-family:'Heebo',sans-serif;font-weight:800;font-size:clamp(0.9rem,2vw,1.2rem);letter-spacing:0.35em;color:var(--text-secondary);margin-top:8px}
+.hub-subtitle{font-size:clamp(0.9rem,2vw,1.05rem);color:var(--text-secondary);font-weight:300;max-width:440px}
+.hub-main{padding:20px 20px 100px;max-width:1060px;margin:0 auto}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:24px;margin-bottom:56px}
+.hub-card{background:linear-gradient(175deg,var(--bg-card),rgba(13,8,6,.9));border:1px solid rgba(196,148,61,.08);border-radius:24px;padding:36px 28px;display:flex;flex-direction:column;gap:14px;text-decoration:none;position:relative;overflow:hidden;transition:all .4s cubic-bezier(.23,1,.32,1)}
+.hub-card:hover{transform:translateY(-7px);border-color:rgba(196,148,61,.28);box-shadow:0 24px 64px rgba(0,0,0,.4)}
+.hub-card.featured{border-color:rgba(212,168,67,.5);box-shadow:0 0 60px rgba(196,148,61,.08),inset 0 1px 0 rgba(196,148,61,.25)}
+.hub-card.featured::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(to left,var(--acorn-brown),var(--acorn-gold),var(--acorn-brown))}
+.hub-card-badge{position:absolute;top:18px;left:18px;background:linear-gradient(135deg,var(--acorn-gold),var(--accent-orange));color:var(--acorn-dark);font-weight:700;font-size:.72rem;padding:4px 12px;border-radius:100px}
+.hub-card-icon{font-size:2.4rem;line-height:1}
+.hub-card h3{font-family:'Heebo',sans-serif;font-weight:800;font-size:1.35rem;color:var(--text-primary);margin:0}
+.hub-card p{color:var(--text-secondary);font-size:.9rem;line-height:1.75;flex-grow:1;margin:0}
+.hub-card-cta{display:inline-flex;align-items:center;gap:6px;color:var(--acorn-gold);font-weight:700;font-size:.92rem;margin-top:4px}
+.hub-card.featured .hub-card-cta{color:#fff}
+.hub-unsure{text-align:center;padding:40px 20px;border-top:1px solid rgba(196,148,61,.08)}
+.hub-unsure p{color:var(--text-secondary);margin-bottom:20px;font-size:1rem}
+@media(max-width:768px){.hub-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto 48px}}
+</style>
 </head>
 <body>
-
 <div class="ambient-glow glow-1"></div>
 <div class="ambient-glow glow-2"></div>
 
-<!-- ========== HERO ========== -->
-<section class="hero" id="top">
-  <img src="public/images/nutz-logo.png" alt="NUTZ Calisthenics Logo" class="hero-logo" width="130" height="130">
+<header class="hub-header">
+  <img src="public/images/nutz-logo.png" alt="NUTZ Calisthenics" class="hero-logo" width="110" height="110">
+  <h1 class="hub-title">NUTZ<span>CALISTHENICS</span></h1>
+  <p class="hub-subtitle">להתחיל ולהתקדם בקליסטניקס באונליין</p>
+</header>
 
-  <div class="hero-badge">
-    <span class="dot"></span>
-    מקבל מתאמנים חדשים
+<main class="hub-main">
+  <div class="hub-grid">
+
+    <!-- Card 1: Assessment -->
+    <a href="programs/assessment/" class="hub-card" id="card-assessment">
+      <div class="hub-card-icon">🎯</div>
+      <h3>שיעור הערכה</h3>
+      <p>מתחיל? בוא לשיעור הערכה ותגלה איך קליסטניקס יכול לשנות לך את החיים.</p>
+      <span class="hub-card-cta">פרטים נוספים ←</span>
+    </a>
+
+    <!-- Card 2: Birthday (featured) -->
+    <a href="programs/birthday/" class="hub-card featured" id="card-birthday">
+      <div class="hub-card-badge">🎂 מבצע מוגבל!</div>
+      <div class="hub-card-icon">🎉</div>
+      <h3>מבצע יום הולדת</h3>
+      <p>ליאב חוגג 24 — הנחות של 24% על תהליכים ושיעורים. מ-25/05 עד 01/06 בלבד.</p>
+      <span class="hub-card-cta">לפרטי המבצע ←</span>
+    </a>
+
+    <!-- Card 3: Plans -->
+    <a href="programs/plans/" class="hub-card" id="card-plans">
+      <div class="hub-card-icon">💪</div>
+      <h3>תוכניות אימון</h3>
+      <p>תהליכי 90, 180 ו-360 ימים עם ליווי 1:1 מליאב. בניית יסודות, העמקה, וסקילים מתקדמים.</p>
+      <span class="hub-card-cta">צפה בתוכניות ←</span>
+    </a>
+
   </div>
 
-  <h1>NUTZ<span class="sub">CALISTHENICS</span></h1>
-
-  <p class="hero-subtitle">להתחיל ולהתקדם בקליסטניקס באונליין. ליווי 1:1 מותאם אישית מליאב - מאמן עם 14+ שנות ניסיון.</p>
-
-  <div class="hero-cta-group">
-    <a href="#contact" class="btn-primary">הגשת מועמדות לתהליך</a>
-    <a href="#pricing" class="btn-ghost">צפה במסלולים</a>
-  </div>
-
-  <div class="scroll-indicator"><div class="line"></div></div>
-</section>
-
-<!-- ========== PROCESS ========== -->
-<div class="section-divider"></div>
-<section class="section" id="process">
-  <div class="section-label">THE NUTZ METHOD</div>
-  <h2 class="section-title">השיטה לשליטה</h2>
-  <p class="section-desc">לא עוד תוכנית גנרית. תהליך מובנה שנבנה סביבך - הגוף שלך, הרמה שלך, המטרות שלך.</p>
-
-  <div class="process-grid">
-    <div class="process-card" data-anim="card">
-      <div class="process-num">01</div>
-      <div class="process-icon">🎯</div>
-      <h3>אבחון אישי</h3>
-      <p>מיפוי יכולות, זיהוי חולשות, הגדרת מטרות ריאליסטיות. נבין בדיוק איפה אתה ולאן אתה רוצה להגיע.</p>
-    </div>
-    <div class="process-card" data-anim="card">
-      <div class="process-num">02</div>
-      <div class="process-icon">💪</div>
-      <h3>תוכנית + ליווי צמוד</h3>
-      <p>תוכנית אימונים שמתעדכנת לפי ההתקדמות שלך, שיעורי 1:1, מעקב שוטף וזמינות ישירה מליאב. כשליאב בארץ - גם פרונטלי.</p>
-    </div>
-    <div class="process-card" data-anim="card">
-      <div class="process-num">03</div>
-      <div class="process-icon">🔥</div>
-      <h3>שליטה, כוח וסקילים</h3>
-      <p>מסל אפ, הנדסטנד, פלאנש - סקילים שנראו בלתי אפשריים הופכים למציאות. בנייה שיטתית של כוח ושליטה בגוף.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ========== PRICING ========== -->
-<div class="section-divider"></div>
-<section class="pricing-section" id="pricing">
-  <div class="section-label">CHOOSE YOUR PATH</div>
-  <h2 class="section-title">בחר את המסלול שלך</h2>
-  <p class="section-desc">כל מסלול כולל ליווי אישי מלא. ההבדל - בעומק, במשך, ובמספר שיעורי ה-1:1.</p>
-
-  <div class="pricing-grid">
-    <!-- 90 -->
-    <div class="price-card" data-anim="card">
-      <div class="price-duration">90 DAYS</div>
-      <h3>יסודות הקליסטניקס</h3>
-      <p class="price-desc">תהליך כניסה לעולם הקליסטניקס דרך בניית יסודות, שליטה וסקילים.</p>
-      <div class="price-amount">3,050<span class="currency">₪</span></div>
-      <div class="price-per">~ ₪33.9 ליום</div>
-      <div class="price-divider"></div>
-      <ul class="price-features">
-        <li><span class="ck">✓</span>תוכנית אימונים מתעדכנת בהתאמה אישית</li>
-        <li><span class="ck">✓</span>ליווי 1:1 אונליין ישיר מליאב</li>
-        <li><span class="ck">✓</span>שיעור 1:1 אונליין (או פרונטלי כשליאב בארץ)</li>
-        <li><span class="ck">✓</span>קהילה סגורה + תכני העשרה</li>
-      </ul>
-      <a href="#contact" class="price-cta">הגשת מועמדות - 90 ימים</a>
-    </div>
-
-    <!-- 180 -->
-    <div class="price-card featured" data-anim="card">
-      <div class="price-badge">🔥 הכי פופולרי</div>
-      <div class="price-duration">180 DAYS</div>
-      <h3>העמקה והטמעה</h3>
-      <p class="price-desc">שלב ההעמקה וההטמעה - להפוך את הבסיס לשליטה אמיתית.</p>
-      <div class="price-amount">5,800<span class="currency">₪</span></div>
-      <div class="price-per">~ ₪32.2 ליום</div>
-      <div class="price-divider"></div>
-      <ul class="price-features">
-        <li><span class="ck">✓</span>תוכנית אימונים מתעדכנת בהתאמה אישית</li>
-        <li><span class="ck">✓</span>ליווי 1:1 אונליין ישיר מליאב</li>
-        <li><span class="ck">✓</span>3 שיעורי 1:1 אונליין (או פרונטליים כשליאב בארץ)</li>
-        <li><span class="ck">✓</span>קהילה סגורה + תכני העשרה</li>
-      </ul>
-      <a href="#contact" class="price-cta">הגשת מועמדות - 180 ימים</a>
-    </div>
-
-    <!-- 360 -->
-    <div class="price-card" data-anim="card">
-      <div class="price-duration">360 DAYS</div>
-      <h3>תהליך שנתי מלא</h3>
-      <p class="price-desc">תהליך שנתי לפיתוח גוף, יכולת וזהות תנועתית דרך קליסטניקס.</p>
-      <div class="price-amount">10,500<span class="currency">₪</span></div>
-      <div class="price-per">~ ₪29.2 ליום</div>
-      <div class="price-divider"></div>
-      <ul class="price-features">
-        <li><span class="ck">✓</span>תוכנית אימונים מתעדכנת בהתאמה אישית</li>
-        <li><span class="ck">✓</span>ליווי 1:1 אונליין ישיר מליאב</li>
-        <li><span class="ck">✓</span>6 שיעורי 1:1 אונליין (או פרונטליים כשליאב בארץ)</li>
-        <li><span class="ck">✓</span>קהילה סגורה + תכני העשרה</li>
-        <li><span class="ck">✓</span>תהליך ארוך טווח לבניית כוח, שליטה וסקילים</li>
-      </ul>
-      <a href="#contact" class="price-cta">הגשת מועמדות - 360 ימים</a>
-    </div>
-  </div>
-</section>
-
-<!-- ========== ABOUT ========== -->
-<div class="section-divider"></div>
-<section class="about-section" id="about">
-  <div class="section-label">YOUR COACH</div>
-  <h2 class="section-title">למה NUTZ?</h2>
-  <div class="about-inner" data-anim="about">
-    <div class="about-avatar">
-      <img src="public/images/liav-planch.png" alt="ליאב - מאמן NUTZ Calisthenics - עושה planche" loading="lazy">
-    </div>
-    <div class="about-text">
-      <h3>ליאב | NUTZ Calisthenics</h3>
-      <p>מאמן קליסטניקס עם 14+ שנות ניסיון, רקע בספורטתרפיה והתמחות בתנועה ושיקום. עובד עם מספר מוגבל של מתאמנים ונותן ליווי אישי אמיתי - לא תוכנית PDF גנרית.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ========== FAQ ========== -->
-<div class="section-divider"></div>
-<section class="faq-section" id="faq">
-  <img src="public/images/nutz-avatar-sticker.png" class="faq-mascot" alt="NUTZ mascot">
-  <div class="section-label">FAQ</div>
-  <h2 class="section-title">שאלות נפוצות</h2>
-  <p class="section-desc">תשובות לשאלות שהכי שואלים אותי</p>
-
-  <div class="faq-list">
-    <div class="faq-item" data-anim="faq">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>האם צריך ניסיון קודם?</h4>
-        <span class="arrow">▼</span>
+  <!-- About Liav -->
+  <div class="section-divider" style="margin:60px auto"></div>
+  <section class="about-section" style="padding:60px 20px">
+    <div class="section-label">YOUR COACH</div>
+    <h2 class="section-title">למה NUTZ?</h2>
+    <div class="about-inner">
+      <div class="about-avatar">
+        <img src="public/images/liav-planch.png" alt="ליאב - מאמן NUTZ Calisthenics" loading="lazy">
       </div>
-      <div class="faq-a"><div class="faq-a-inner">לא. התהליך מותאם לרמה שלך. גם אם אף פעם לא נגעת בבר - נתחיל מהמקום שלך.</div></div>
-    </div>
-    <div class="faq-item" data-anim="faq">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>איך עובד הליווי?</h4>
-        <span class="arrow">▼</span>
+      <div class="about-text">
+        <h3>ליאב | NUTZ Calisthenics</h3>
+        <p>24 שנים · 15+ שנות ניסיון בקליסטניקס · רקע בספורטתרפיה · בדרך לאליפות העולם בלאטביה. עובד עם מספר מוגבל של מתאמנים ונותן ליווי אישי אמיתי — לא תוכנית PDF גנרית.</p>
       </div>
-      <div class="faq-a"><div class="faq-a-inner">תוכנית מתעדכנת, שיעורי 1:1 בווידאו, מעקב שוטף וזמינות ישירה מליאב. כשליאב בארץ - גם פרונטלי.</div></div>
     </div>
-    <div class="faq-item" data-anim="faq">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>מה ההבדל בין המסלולים?</h4>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="faq-a"><div class="faq-a-inner">כולם כוללים ליווי מלא. ההבדל במשך, מספר שיעורי 1:1, ועומק התהליך.</div></div>
-    </div>
-    <div class="faq-item" data-anim="faq">
-      <div class="faq-q" onclick="toggleFaq(this)">
-        <h4>למה יש תהליך סינון?</h4>
-        <span class="arrow">▼</span>
-      </div>
-      <div class="faq-a"><div class="faq-a-inner">כי הליווי אישי ואמיתי. אני עובד עם מספר מוגבל של מתאמנים ומקבל רק את מי שבאמת מוכן להתחייב לתהליך.</div></div>
-    </div>
-  </div>
-</section>
+  </section>
+  <div class="section-divider" style="margin:0 auto 40px"></div>
 
-<!-- ========== LEAD FORM ========== -->
+  <div class="hub-unsure">
+    <p>לא בטוח מה מתאים לך?</p>
+    <a href="#contact" class="btn-ghost">דבר איתי</a>
+  </div>
+</main>
+
+<!-- ========== CONTACT ========== -->
 <div class="section-divider"></div>
 <section class="form-section" id="contact">
-  <div class="section-label">LET'S GO</div>
-  <h2 class="section-title">הגשת מועמדות</h2>
-  <p class="section-desc">לא כל אחד מתקבל. מלא את הפרטים וליאב יחזור אליך תוך 24 שעות.</p>
-
-  <div class="form-card" data-anim="form">
-    <form id="leadForm">
+  <div class="section-label">LET'S TALK</div>
+  <h2 class="section-title">דבר איתי</h2>
+  <p class="section-desc">לא בטוח מה מתאים לך? השאר פרטים וליאב יחזור אליך תוך 24 שעות.</p>
+  <div class="form-card">
+    <form id="hubContactForm">
       <div class="form-group">
-        <label for="fname">שם מלא *</label>
-        <input type="text" id="fname" name="name" required placeholder="השם שלך">
+        <label for="hname">שם מלא</label>
+        <input type="text" id="hname" name="name" required placeholder="השם שלך">
       </div>
       <div class="form-group">
-        <label for="fphone">טלפון *</label>
-        <input type="tel" id="fphone" name="phone" required placeholder="05X-XXXXXXX" dir="ltr" style="text-align:right">
+        <label for="hphone">טלפון</label>
+        <input type="tel" id="hphone" name="phone" required placeholder="05X-XXXXXXX" dir="ltr" style="text-align:right">
       </div>
       <div class="form-group">
-        <label for="ftrack">מסלול מבוקש</label>
-        <select id="ftrack" name="track">
-          <option value="">עדיין לא בטוח</option>
-          <option value="90">90 ימים - יסודות (₪3,050)</option>
-          <option value="180">180 ימים - העמקה (₪5,800)</option>
-          <option value="360">360 ימים - שנתי (₪10,500)</option>
-        </select>
+        <label for="hmsg">במה אתה מעוניין? (אופציונלי)</label>
+        <textarea id="hmsg" name="message" rows="3" placeholder="שאלה, מסלול שמעניין אותך, או סתם שלום..."></textarea>
       </div>
-      <div class="form-group">
-        <label for="fexp">ניסיון קודם</label>
-        <select id="fexp" name="experience">
-          <option value="">בחר...</option>
-          <option value="none">אין לי ניסיון</option>
-          <option value="beginner">מתחיל - פחות משנה</option>
-          <option value="intermediate">בינוני - 1-3 שנים</option>
-          <option value="advanced">מתקדם - 3+ שנים</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="fmsg">משהו שחשוב לך שאדע?</label>
-        <textarea id="fmsg" name="message" rows="3" placeholder="מטרות, פציעות, זמינות..."></textarea>
-      </div>
-      <button type="submit" class="form-submit" id="submitBtn">שלח מועמדות</button>
+      <button type="submit" class="form-submit" id="hubSubmitBtn">שלח פרטים</button>
     </form>
-
-    <div class="form-success" id="formSuccess">
+    <div class="form-success" id="hubSuccess">
       <div class="big-check">✅</div>
-      <h4>המועמדות נשלחה!</h4>
-      <p>ליאב יבדוק ויחזור אליך תוך 24 שעות.</p>
+      <h4>קיבלנו!</h4>
+      <p>ליאב ואחזור אליך תוך 24 שעות.</p>
     </div>
   </div>
 </section>
 
-<!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="footer-logo">NUTZ</div>
   <p>&copy; 2026 NUTZ Calisthenics. כל הזכויות שמורות.</p>
 </footer>
 
-<script src="main.js"></script>
+<script src="main-programs.js"></script>
 </body>
 </html>

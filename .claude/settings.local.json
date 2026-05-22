@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir \"c:\\\\Users\\\\kimkr\\\\Desktop\\\\working-space\\\\liav-nutz\\\\NUTZ-LP\\\\public\\\\images\\\\\")"
+      "Bash(dir \"c:\\\\Users\\\\kimkr\\\\Desktop\\\\working-space\\\\liav-nutz\\\\NUTZ-LP\\\\public\\\\images\\\\\")",
+      "PowerShell(Get-ChildItem 'c:\\\\Users\\\\kimkr\\\\Desktop\\\\working-space\\\\liav-nutz\\\\NUTZ-LP\\\\' -Recurse | Where-Object { !$_.PSIsContainer -and $_.Name -ne '.gitignore' } | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\('c:\\\\Users\\\\kimkr\\\\Desktop\\\\working-space\\\\liav-nutz\\\\NUTZ-LP\\\\',''\\) })"
     ]
   }
 }

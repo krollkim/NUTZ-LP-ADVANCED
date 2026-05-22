@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/assessment"
+  to = "/programs/assessment"
+  status = 301
+
+[[redirects]]
+  from = "/assessment.html"
+  to = "/programs/assessment"
+  status = 301
+
+[[redirects]]
+  from = "/programs"
+  to = "/"
+  status = 301
