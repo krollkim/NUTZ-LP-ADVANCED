@@ -1,4 +1,4 @@
-/* ===== CONTACT FORM ===== */
+﻿/* ===== CONTACT FORM ===== */
 const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbzjTFrHgEG01mmEsZgLy-LVrkUlrMOqdrHyUsG-mSOsXzZYXlicNJP7-ubRocYujSIY/exec';
 
 document.getElementById('hubContactForm').addEventListener('submit', async function(e) {
@@ -40,7 +40,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-/* ===== GSAP — Programs Hub ===== */
+/* ===== GSAP - Programs Hub ===== */
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from('.hero-logo',   { duration: 0.9, y: -30, opacity: 0, ease: 'power3.out' });

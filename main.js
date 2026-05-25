@@ -1,4 +1,4 @@
-/* ===== FAQ Toggle ===== */
+﻿/* ===== FAQ Toggle ===== */
 function toggleFaq(el) {
   const item = el.parentElement;
   const answer = item.querySelector('.faq-a');
@@ -114,7 +114,7 @@ document.addEventListener('mousemove', e => {
   gsap.to('.glow-2', { x: -x * 30, y: -y * 30, duration: 1.5, ease: 'power1.out' });
 });
 
-// FAQ mascot — entrance + continuous float
+// FAQ mascot - entrance + continuous float
 gsap.set('.faq-mascot', { y: -60, opacity: 0 });
 ScrollTrigger.create({
   trigger: '.faq-section',
