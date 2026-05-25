@@ -1,5 +1,5 @@
 /* ===== COUNTDOWN TIMER ===== */
-const deadline = new Date('2026-06-01T23:59:00+03:00');
+const deadline = new Date('2026-06-03T23:59:00+03:00');
 
 function updateCountdown() {
   const now = new Date();
