@@ -1,0 +1,11 @@
+# Claude / MCP
+.claude/
+.playwright-mcp/
+
+# Screenshots (temp files)
+ss-*.png
+screenshot-*.png
+
+# OS
+.DS_Store
+Thumbs.db
