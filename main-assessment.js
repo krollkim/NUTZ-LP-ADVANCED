@@ -30,7 +30,8 @@ document.getElementById('assessmentForm').addEventListener('submit', async funct
     phone: document.getElementById('aphone').value,
     format: document.getElementById('aformat').value,
     message: document.getElementById('amsg').value,
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    משפך: 'דף נחיתה'
   };
 
   try {

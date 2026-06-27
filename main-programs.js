@@ -12,7 +12,8 @@ document.getElementById('hubContactForm').addEventListener('submit', async funct
     name:    document.getElementById('hname').value,
     phone:   document.getElementById('hphone').value,
     message: document.getElementById('hmsg').value,
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    משפך: 'דף נחיתה'
   };
 
   try {

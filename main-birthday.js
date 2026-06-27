@@ -70,7 +70,8 @@ document.getElementById('birthdayForm').addEventListener('submit', async functio
     phone:      document.getElementById('bphone').value,
     track:      document.getElementById('btrack').value,
     message:    document.getElementById('bmsg').value,
-    timestamp:  new Date().toISOString()
+    timestamp:  new Date().toISOString(),
+    משפך: 'דף נחיתה'
   };
 
   try {
