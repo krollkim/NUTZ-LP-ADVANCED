@@ -70,7 +70,11 @@ document.getElementById('birthdayForm').addEventListener('submit', async functio
     phone:      document.getElementById('bphone').value,
     track:      document.getElementById('btrack').value,
     message:    document.getElementById('bmsg').value,
-    timestamp:  new Date().toISOString(),
+    timestamp: new Date().toLocaleString('he-IL', {
+      timeZone: 'Asia/Jerusalem',
+      day: '2-digit', month: '2-digit', year: 'numeric',
+      hour: '2-digit', minute: '2-digit',
+    }),
     משפך: 'דף נחיתה'
   };
 

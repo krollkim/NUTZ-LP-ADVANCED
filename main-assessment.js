@@ -30,7 +30,11 @@ document.getElementById('assessmentForm').addEventListener('submit', async funct
     phone: document.getElementById('aphone').value,
     format: document.getElementById('aformat').value,
     message: document.getElementById('amsg').value,
-    timestamp: new Date().toISOString(),
+    timestamp: new Date().toLocaleString('he-IL', {
+      timeZone: 'Asia/Jerusalem',
+      day: '2-digit', month: '2-digit', year: 'numeric',
+      hour: '2-digit', minute: '2-digit',
+    }),
     משפך: 'דף נחיתה'
   };
 
